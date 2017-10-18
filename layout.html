@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="layout.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="layout.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+	<div class="container">
+		<div class="row">
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top col-sm-12">
+			
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			</div>
+			<div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li class="icon"><a href="#">Home </a></li>
+                        <li ><a href="#">Project </a></li>
+                        <li><a href="#" >About Us</a></li>
+                        <li ><a href="#">Contact </a></li>
+                    </ul>
+                </div>
+            </nav>
+		</header>
+	</div>
+</div>
+		<nav class="navbar navbar-inverse col-sm-2 navstyling" id="sidebar-wrapper">
+			<ul class="nav sidebar-nav" style="text-decoration-color: white">
+				<li class="sidebar-brand"><a href="#">Home</a></li>
+				<li><a href="#">Skills</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Associates</a>
+					<ul class="dropdown-menu" role="menu" style="background-color:lightblue;">
+						<li><a href="#" id="preview"
+							onclick="divVisibility('div1')">Anusha K</a></li>
+							<li><a href="#" id="preview5"
+							onclick="divVisibility('div6')">Bangarubabu P</a></li>
+						<li><a href="#" id="preview1"
+							onclick="divVisibility('div2')">Divya P</a></li>
+						<li><a href="#" id="preview2"
+							onclick="divVisibility('div3')">Divya S</a></li>
+						<li><a href="#" id="preview3"
+							onclick="divVisibility('div4')">Satish M</a></li>
+						<li><a href="#" id="preview4"
+							onclick="divVisibility('div5')">Yogeesh Y</a></li>
+						
+					</ul>
+				</li>
+				
+			</ul>
+			
+		</nav>
+	
+	<div class="col-sm-9">
+		<div class="container" id="id">
+			<div class="row">
+
+			<div class=" user-details col-sm-9" id="div1">
+				<div class="user-image">
+					<img  src="images/anu.jpg" alt="anusha k" title="Anusha Kopparappu" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Anusha Kopparappu</h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information" class="tab-pane active">
+                    			<h3> System Engineer,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>PHP</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact" class="tab-pane">
+                    		<h4>email:anusha.k5@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    
+                    </div>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+		<div class="user-details col-sm-9" id="div2">
+				<div class="user-image">
+					<img src="images/divyapothu.jpeg" alt="Divya P" title="divya pothu" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Divya Pothu</h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information2">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills2">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact2">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information2" class="tab-pane active">
+                    			<h3>Assistant System Engineer,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills2" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>Java</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact2" class="tab-pane">
+                    		<h4>email: divya.singh7@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    	
+                    </div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="user-details col-sm-9" id="div3">
+				<div class="user-image">
+					<img src="images/me.jpg" alt="anusha k" title="divya singh" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Divya Singh</h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information3">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills3">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact3">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information3" class="tab-pane active">
+                    			<h3>Assistant System Engineer,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills3" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>Java</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact3" class="tab-pane">
+                    		<h4>email:divya.singh7@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    	
+                    </div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="user-details col-sm-9" id="div4">
+				<div class="user-image">
+					<img src="images/satish.jpg" alt="anusha k" title="satish m" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Satish Mathpati</h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information4">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills4">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact4">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information4" class="tab-pane active">
+                    			<h3> System Engineer,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills4" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>PHP</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact4" class="tab-pane">
+                    		<h4>email:satish.m@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    	
+                    </div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="user-details col-sm-9" id="div5">
+				<div class="user-image">
+					<img src="images/yogeesh.jpg" alt="anusha k" title="yogeesh tm" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Yogeesh yogi </h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information5">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills5">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact5">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information5" class="tab-pane active">
+                    			<h3> System Engineer,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills5" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>PHP</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact5" class="tab-pane">
+                    		<h4>email:yogeesh.yogi@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    	
+                    </div>
+					</div>
+				</div>
+				
+
+			</div>
+
+
+			<div class="user-details col-sm-9" id="div6">
+				<div class="user-image">
+					<img src="images/bangaru.jpg" alt="bangaru" title="bangaru p" class="img-circle">
+				</div>
+				<div class="user-info-block">
+					<div class="user-heading">
+						<h3>Bangarubabu P </h3>
+					</div>
+					<ul class="navigation">
+						<li class="active">
+							<a data-toggle="tab" href="#information6">
+								<span class="glyphicon glyphicon-user"></span>
+							</a>
+						</li>
+						<li><a data-toggle="tab" href="#Skills6">
+                            <span class="glyphicon glyphicon-cog"></span>
+                        </a></li>
+
+                        <li><a data-toggle="tab" href="#Contact6">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a></li>
+                    </ul>
+                    <div class="user-body">
+                    	<div class="tab-content">
+                    		<div id="information6" class="tab-pane active">
+                    			<h3> Manager,Full Stack Developer-Mckinsey</h3>
+                    		
+                    	</div>
+                    	<div id="Skills6" class="tab-pane">
+                    		<h4><ul><li>Javascript</li>
+                    			<li>Angular JS</li>
+                    			<li>PHP</li>
+                    			<li>HTML5</li>
+                    			<li>CSS3</li>
+                    			<li>MongoDB,Node.js,NoSQL,postgres</li></ul></h4>
+                    		
+                    	</div>
+                    	<div id="Contact6" class="tab-pane">
+                    		<h4>email:bangaru.pureti@tcs.com</h4>
+                    		<h4>phon no:123456</h4>
+                    	</div>
+                    	
+                    </div>
+					</div>
+				</div>
+				
+
+			</div>
+		</div>
+	</div>
+		
+	</div>
+</div>
+
+</body>
+</html>
